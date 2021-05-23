@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static',filename='/js_css/index.css')}}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> &#9881; Logs and Report for compression</title>
+    
+</head>
+<body>
+    <div class="topnav" style="padding:0px;">
+        <a href="#Author" style="pointer-events: none;" oncontextmenu="return false">
+            &lbbrk;&Lscr;&Hopf;&rbbrk;
+        </a>
+        <a href="{{ url_for('home')}}">Compress Video</a>
+        <a href="{{ url_for('model')}}">Logs and Report</a>
+        <a style="float: right; pointer-events: none; font-size: large;"oncontextmenu="return false">
+            <span style="font-size: large;">&#9993;</span><i> "name"@"domain"."service"</i>
+        </a>
+    </div>
+    <center>
+        
+        <div class="jumbotron shadow p-3 mb-5 bg-white" style="background-color: rgb(228, 225, 211); width: 80%; margin-top: 5%; padding-top: 2%; padding-bottom: 2%;" >
+<!------------------------------------------------------------------------------------------------------>
+            <div>
+                <i><b><h3>Random 5 Frame pixel values</h3></b></i>
+            <table border="1" class="table table-striped table-light table-responsive table-hover">
+                <thead class="thead-dark">
+                <tr style="text-align: right;">
+                    <th></th>
+                    <th>pixel0000</th>
+                    <th>pixel0001</th>
+                    <th>pixel0002</th>
+                    <th>pixel0003</th>
+                    <th>pixel0004</th>
+                    <th>pixel0005</th>
+                    <th>pixel0006</th>
+                    <th>pixel0007</th>
+                    <th>pixel0008</th>
+                    <th>pixel0009</th>
+                    <th>pixel0010</th>
+                    <th>pixel0011</th>
+                    <th>pixel0012</th>
+                    <th>pixel0013</th>
+                    <th>pixel0014</th>
+                    <th>pixel0015</th>
+                    <th>pixel0016</th>
+                    <th>pixel0017</th>
+                    <th>pixel0018</th>
+                    <th>pixel0019</th>
+                    <th>pixel0020</th>
+                    <th>pixel0021</th>
+                    <th>pixel0022</th>
+                    <th>pixel0023</th>
+                    <th>pixel0024</th>
+                    <th>pixel0025</th>
+                    <th>pixel0026</th>
+                    <th>pixel0027</th>
+                    <th>pixel0028</th>
+                    <th>pixel0029</th>
+                    <th>pixel0030</th>
+                    <th>pixel0031</th>
+                    <th>pixel0032</th>
+                    <th>pixel0033</th>
+                    <th>pixel0034</th>
+                    <th>pixel0035</th>
+                    <th>pixel0036</th>
+                    <th>pixel0037</th>
+                    <th>pixel0038</th>
+                    <th>pixel0039</th>
+                    <th>...</th>
+                    <th>pixel2313</th>
+                    <th>pixel2314</th>
+                    <th>pixel2315</th>
+                    <th>pixel2316</th>
+                    <th>pixel2317</th>
+                    <th>pixel2318</th>
+                    <th>pixel2319</th>
+                    <th>pixel2320</th>
+                    <th>pixel2321</th>
+                    <th>pixel2322</th>
+                    <th>pixel2323</th>
+                    <th>pixel2324</th>
+                    <th>pixel2325</th>
+                    <th>pixel2326</th>
+                    <th>pixel2327</th>
+                    <th>pixel2328</th>
+                    <th>pixel2329</th>
+                    <th>pixel2330</th>
+                    <th>pixel2331</th>
+                    <th>pixel2332</th>
+                    <th>pixel2333</th>
+                    <th>pixel2334</th>
+                    <th>pixel2335</th>
+                    <th>pixel2336</th>
+                    <th>pixel2337</th>
+                    <th>pixel2338</th>
+                    <th>pixel2339</th>
+                    <th>pixel2340</th>
+                    <th>pixel2341</th>
+                    <th>pixel2342</th>
+                    <th>pixel2343</th>
+                    <th>pixel2344</th>
+                    <th>pixel2345</th>
+                    <th>pixel2346</th>
+                    <th>pixel2347</th>
+                    <th>pixel2348</th>
+                    <th>pixel2349</th>
+                    <th>pixel2350</th>
+                    <th>pixel2351</th>
+                    <th>label</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>192</td>
+                    <td>133</td>
+                    <td>168</td>
+                    <td>193</td>
+                    <td>125</td>
+                    <td>158</td>
+                    <td>191</td>
+                    <td>117</td>
+                    <td>152</td>
+                    <td>196</td>
+                    <td>122</td>
+                    <td>161</td>
+                    <td>210</td>
+                    <td>150</td>
+                    <td>186</td>
+                    <td>209</td>
+                    <td>152</td>
+                    <td>184</td>
+                    <td>161</td>
+                    <td>117</td>
+                    <td>161</td>
+                    <td>122</td>
+                    <td>80</td>
+                    <td>130</td>
+                    <td>190</td>
+                    <td>139</td>
+                    <td>174</td>
+                    <td>163</td>
+                    <td>116</td>
+                    <td>159</td>
+                    <td>119</td>
+                    <td>80</td>
+                    <td>132</td>
+                    <td>106</td>
+                    <td>68</td>
+                    <td>117</td>
+                    <td>116</td>
+                    <td>72</td>
+                    <td>118</td>
+                    <td>146</td>
+                    <td>...</td>
+                    <td>185</td>
+                    <td>130</td>
+                    <td>169</td>
+                    <td>193</td>
+                    <td>140</td>
+                    <td>176</td>
+                    <td>202</td>
+                    <td>161</td>
+                    <td>191</td>
+                    <td>179</td>
+                    <td>127</td>
+                    <td>167</td>
+                    <td>194</td>
+                    <td>139</td>
+                    <td>177</td>
+                    <td>207</td>
+                    <td>169</td>
+                    <td>196</td>
+                    <td>189</td>
+                    <td>136</td>
+                    <td>177</td>
+                    <td>171</td>
+                    <td>108</td>
+                    <td>155</td>
+                    <td>170</td>
+                    <td>107</td>
+                    <td>152</td>
+                    <td>151</td>
+                    <td>90</td>
+                    <td>141</td>
+                    <td>139</td>
+                    <td>80</td>
+                    <td>126</td>
+                    <td>181</td>
+                    <td>115</td>
+                    <td>154</td>
+                    <td>173</td>
+                    <td>109</td>
+                    <td>152</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>172</td>
+                    <td>110</td>
+                    <td>153</td>
+                    <td>178</td>
+                    <td>108</td>
+                    <td>150</td>
+                    <td>193</td>
+                    <td>127</td>
+                    <td>167</td>
+                    <td>210</td>
+                    <td>162</td>
+                    <td>191</td>
+                    <td>211</td>
+                    <td>160</td>
+                    <td>189</td>
+                    <td>216</td>
+                    <td>157</td>
+                    <td>187</td>
+                    <td>181</td>
+                    <td>116</td>
+                    <td>152</td>
+                    <td>170</td>
+                    <td>107</td>
+                    <td>150</td>
+                    <td>211</td>
+                    <td>164</td>
+                    <td>190</td>
+                    <td>182</td>
+                    <td>124</td>
+                    <td>165</td>
+                    <td>192</td>
+                    <td>135</td>
+                    <td>178</td>
+                    <td>204</td>
+                    <td>148</td>
+                    <td>183</td>
+                    <td>217</td>
+                    <td>172</td>
+                    <td>202</td>
+                    <td>216</td>
+                    <td>...</td>
+                    <td>203</td>
+                    <td>149</td>
+                    <td>177</td>
+                    <td>174</td>
+                    <td>111</td>
+                    <td>151</td>
+                    <td>202</td>
+                    <td>157</td>
+                    <td>188</td>
+                    <td>206</td>
+                    <td>153</td>
+                    <td>181</td>
+                    <td>181</td>
+                    <td>123</td>
+                    <td>158</td>
+                    <td>149</td>
+                    <td>86</td>
+                    <td>132</td>
+                    <td>179</td>
+                    <td>110</td>
+                    <td>153</td>
+                    <td>210</td>
+                    <td>153</td>
+                    <td>184</td>
+                    <td>202</td>
+                    <td>140</td>
+                    <td>174</td>
+                    <td>201</td>
+                    <td>140</td>
+                    <td>173</td>
+                    <td>207</td>
+                    <td>159</td>
+                    <td>189</td>
+                    <td>196</td>
+                    <td>135</td>
+                    <td>171</td>
+                    <td>191</td>
+                    <td>127</td>
+                    <td>165</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>50</td>
+                    <td>13</td>
+                    <td>42</td>
+                    <td>89</td>
+                    <td>29</td>
+                    <td>61</td>
+                    <td>160</td>
+                    <td>60</td>
+                    <td>101</td>
+                    <td>165</td>
+                    <td>72</td>
+                    <td>116</td>
+                    <td>174</td>
+                    <td>77</td>
+                    <td>117</td>
+                    <td>163</td>
+                    <td>65</td>
+                    <td>102</td>
+                    <td>171</td>
+                    <td>88</td>
+                    <td>125</td>
+                    <td>198</td>
+                    <td>120</td>
+                    <td>155</td>
+                    <td>152</td>
+                    <td>57</td>
+                    <td>93</td>
+                    <td>121</td>
+                    <td>30</td>
+                    <td>65</td>
+                    <td>141</td>
+                    <td>47</td>
+                    <td>86</td>
+                    <td>140</td>
+                    <td>46</td>
+                    <td>85</td>
+                    <td>158</td>
+                    <td>54</td>
+                    <td>92</td>
+                    <td>169</td>
+                    <td>...</td>
+                    <td>228</td>
+                    <td>190</td>
+                    <td>202</td>
+                    <td>208</td>
+                    <td>167</td>
+                    <td>189</td>
+                    <td>161</td>
+                    <td>98</td>
+                    <td>138</td>
+                    <td>232</td>
+                    <td>216</td>
+                    <td>218</td>
+                    <td>241</td>
+                    <td>226</td>
+                    <td>227</td>
+                    <td>238</td>
+                    <td>226</td>
+                    <td>226</td>
+                    <td>241</td>
+                    <td>228</td>
+                    <td>231</td>
+                    <td>237</td>
+                    <td>224</td>
+                    <td>229</td>
+                    <td>239</td>
+                    <td>233</td>
+                    <td>230</td>
+                    <td>236</td>
+                    <td>232</td>
+                    <td>226</td>
+                    <td>233</td>
+                    <td>220</td>
+                    <td>217</td>
+                    <td>186</td>
+                    <td>129</td>
+                    <td>157</td>
+                    <td>122</td>
+                    <td>52</td>
+                    <td>95</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <td>172</td>
+                    <td>75</td>
+                    <td>117</td>
+                    <td>180</td>
+                    <td>79</td>
+                    <td>121</td>
+                    <td>173</td>
+                    <td>85</td>
+                    <td>131</td>
+                    <td>97</td>
+                    <td>46</td>
+                    <td>79</td>
+                    <td>138</td>
+                    <td>67</td>
+                    <td>98</td>
+                    <td>155</td>
+                    <td>79</td>
+                    <td>123</td>
+                    <td>62</td>
+                    <td>19</td>
+                    <td>63</td>
+                    <td>72</td>
+                    <td>23</td>
+                    <td>57</td>
+                    <td>143</td>
+                    <td>63</td>
+                    <td>103</td>
+                    <td>129</td>
+                    <td>59</td>
+                    <td>105</td>
+                    <td>106</td>
+                    <td>41</td>
+                    <td>86</td>
+                    <td>149</td>
+                    <td>60</td>
+                    <td>109</td>
+                    <td>138</td>
+                    <td>66</td>
+                    <td>116</td>
+                    <td>137</td>
+                    <td>...</td>
+                    <td>187</td>
+                    <td>115</td>
+                    <td>152</td>
+                    <td>167</td>
+                    <td>88</td>
+                    <td>128</td>
+                    <td>171</td>
+                    <td>91</td>
+                    <td>133</td>
+                    <td>191</td>
+                    <td>113</td>
+                    <td>151</td>
+                    <td>193</td>
+                    <td>118</td>
+                    <td>153</td>
+                    <td>201</td>
+                    <td>118</td>
+                    <td>154</td>
+                    <td>204</td>
+                    <td>130</td>
+                    <td>161</td>
+                    <td>192</td>
+                    <td>122</td>
+                    <td>159</td>
+                    <td>189</td>
+                    <td>104</td>
+                    <td>144</td>
+                    <td>195</td>
+                    <td>114</td>
+                    <td>152</td>
+                    <td>192</td>
+                    <td>100</td>
+                    <td>140</td>
+                    <td>148</td>
+                    <td>63</td>
+                    <td>105</td>
+                    <td>133</td>
+                    <td>56</td>
+                    <td>96</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <td>118</td>
+                    <td>40</td>
+                    <td>77</td>
+                    <td>116</td>
+                    <td>50</td>
+                    <td>95</td>
+                    <td>108</td>
+                    <td>44</td>
+                    <td>83</td>
+                    <td>174</td>
+                    <td>60</td>
+                    <td>95</td>
+                    <td>172</td>
+                    <td>66</td>
+                    <td>99</td>
+                    <td>144</td>
+                    <td>60</td>
+                    <td>93</td>
+                    <td>143</td>
+                    <td>54</td>
+                    <td>94</td>
+                    <td>158</td>
+                    <td>59</td>
+                    <td>99</td>
+                    <td>148</td>
+                    <td>53</td>
+                    <td>89</td>
+                    <td>178</td>
+                    <td>76</td>
+                    <td>116</td>
+                    <td>150</td>
+                    <td>60</td>
+                    <td>96</td>
+                    <td>91</td>
+                    <td>29</td>
+                    <td>60</td>
+                    <td>68</td>
+                    <td>21</td>
+                    <td>50</td>
+                    <td>87</td>
+                    <td>...</td>
+                    <td>87</td>
+                    <td>28</td>
+                    <td>59</td>
+                    <td>110</td>
+                    <td>38</td>
+                    <td>69</td>
+                    <td>135</td>
+                    <td>44</td>
+                    <td>78</td>
+                    <td>168</td>
+                    <td>79</td>
+                    <td>107</td>
+                    <td>190</td>
+                    <td>94</td>
+                    <td>116</td>
+                    <td>137</td>
+                    <td>38</td>
+                    <td>58</td>
+                    <td>153</td>
+                    <td>47</td>
+                    <td>79</td>
+                    <td>161</td>
+                    <td>59</td>
+                    <td>98</td>
+                    <td>164</td>
+                    <td>65</td>
+                    <td>104</td>
+                    <td>174</td>
+                    <td>70</td>
+                    <td>106</td>
+                    <td>193</td>
+                    <td>86</td>
+                    <td>116</td>
+                    <td>169</td>
+                    <td>56</td>
+                    <td>82</td>
+                    <td>139</td>
+                    <td>47</td>
+                    <td>73</td>
+                    <td>3</td>
+                </tr>
+                </tbody>
+            </table>
+            <p>5 rows × 2353 columns</p>
+            </div>
+<!------------------------------------------------------------------------------------------------------->
+        </div>
+        <h3>Visualizing Video frame Pixels as a Data</h3>
+        <div class="jumbotron shadow p-3 mb-5 bg-white" style="background-color:rgb(228, 225, 211); width: 80%; margin-top: 3%; padding-top: 2%; padding-bottom: 2%;">
+            <img src="{{ url_for('static',filename='/DBA_Report/visualize_base.jpg')}}" class="img-thumbnail" oncontextmenu="return false" style="pointer-events: none;">
+        </div>
+        
+        <h3>Keep Track of Duplicate in frame using CNN</h3>
+        <div class="jumbotron shadow p-3 mb-5 bg-white" style="background-color:rgb(228, 225, 211); width: 80%; margin-top: 3%; padding-top: 2%; padding-bottom: 2%;overflow: hidden;">
+            <img src="{{ url_for('static',filename='/DBA_Report/original_image.jpg')}}" class="img-thumbnail" oncontextmenu="return false" style="pointer-events: none;float: left; max-width: 40%;">
+            <div style=" float: right; max-width: 38%; ">
+                <span style="font-family: 'Courier New', Courier, monospace;letter-spacing: 3px; word-spacing: 3px;"> New File Size</span>
+            </div>
+        </div>
+        <!-----------------------------8 epoch ------------------------------>
+        <h3>Image Generation using GAN and LSTM</h3>
+        <div class="jumbotron shadow p-3 mb-5 bg-white" style="background-color: rgb(228, 225, 211); width: 80%; margin-top: 3%; padding-top: 2%; padding-bottom: 2%;">
+            <img src="{{ url_for('static',filename='/DBA_Report/frame1.jpg')}}" class="img-thumbnail" oncontextmenu="return false" style="pointer-events: none;width: 30%;"> + 
+            <img src="{{ url_for('static',filename='/DBA_Report/image_masked.jpg')}}" class="img-thumbnail" oncontextmenu="return false" style="pointer-events: none;width: 30%;"> =
+            <img src="{{ url_for('static',filename='/DBA_Report/frame2.jpg')}}" class="img-thumbnail" oncontextmenu="return false" style="pointer-events: none;width: 30%;">
+        </div>
+        <h3>KNN Clusturing and Stochastic Gradient Descent (SGD) on three chanels [R,G,B] Pixel wise</h3>
+        <div class="jumbotron shadow p-3 mb-5 bg-white" style="background-color: rgb(228, 225, 211); width: 80%; margin-top: 3%; padding-top: 2%; padding-bottom: 2%;">
+            <img src="{{ url_for('static',filename='/DBA_Report/knn_s.jpg')}}" class="img-thumbnail" oncontextmenu="return false" style="pointer-events: none;width: 40%;">
+            <img src="{{ url_for('static',filename='/DBA_Report/visualize_knn.jpg')}}" class="img-thumbnail" oncontextmenu="return false" style="pointer-events: none;width: 55%;">
+        </div>
+        <h3>Plot Losses and gain for single sample</h3>
+        <div class="jumbotron shadow-lg p-3 mb-5 bg-white" style="background-color:rgb(228, 225, 211); width: 50%; margin-top: 3%; padding-top: 2%; padding-bottom: 2%;">
+            <img src="{{ url_for('static',filename='/DBA_Report/plot_losses.jpg')}}" class="img-thumbnail" oncontextmenu="return false" style="pointer-events: none;width: 75%;"> &nbsp;
+        </div>
+        <h3>Analysed Report Based on Comparison</h3>
+        <div class="jumbotron shadow p-3 mb-5 bg-white" style="background-color: rgb(228, 225, 211); width: 80%; margin-top: 3%; padding-top: 2%; padding-bottom: 2%;overflow: hidden;">
+            <a href="{{ url_for('static',filename='/video/cvideo1.mp4') }}" download style="float: left;text-decoration: none;max-width: 40%;">
+                <!-------Insert the reference frame to show as image----------->
+            <video class="img-thumbnail" width="370" height="100" name="img" >
+                    <source id="p_image" src="{{ url_for('static',filename='/video/cvideo.mp4')}}" type="video/mp4">
+            </video><br>
+                <!--<img src="{{ url_for('static',filename='/video/cvideo.mp4')}}" class="img-thumbnail" oncontextmenu="return false" style="pointer-events: none;">-->
+                <span style="color: red;font-family: 'Courier New', Courier, monospace;letter-spacing: 3px; word-spacing: 3px;"> Download By :<br> RT-click -> save video/Link as. </span>
+            </a>
+            <div style=" float: right; max-width: 60%; text-align: left;">
+                <table border="0" class="table table-responsive table-dark">
+                    <thead >
+                        <tr><td><span style="font-family: 'Courier New', Courier, monospace;letter-spacing: 3px; word-spacing: 3px;"> Original Size</span></td>
+                            <td><span style="font-family: 'Courier New', Courier, monospace;letter-spacing: 3px; word-spacing: 3px;"> :  </span></td>
+                        </tr>
+                        <tr><td><span style="font-family: 'Courier New', Courier, monospace;letter-spacing: 3px; word-spacing: 3px;"> New File Size</span></td>
+                            <td><span style="font-family: 'Courier New', Courier, monospace;letter-spacing: 3px; word-spacing: 3px;"> :   </span></td>
+                        </tr>
+                        <tr><td><span style="font-family: 'Courier New', Courier, monospace;letter-spacing: 3px; word-spacing: 3px;"> Original FPS</span></td>
+                            <td><span style="font-family: 'Courier New', Courier, monospace;letter-spacing: 3px; word-spacing: 3px;"> :  </span></td>
+                        </tr>
+                        <tr><td><span style="font-family: 'Courier New', Courier, monospace;letter-spacing: 3px; word-spacing: 3px;"> New File FPS</span></td>
+                            <td><span style="font-family: 'Courier New', Courier, monospace;letter-spacing: 3px; word-spacing: 3px;"> :   </span></td>
+                        </tr>
+                        <tr><td><span style="font-family: 'Courier New', Courier, monospace;letter-spacing: 3px; word-spacing: 3px;"> % Compressed</span></td>
+                            <td><span style="font-family: 'Courier New', Courier, monospace;letter-spacing: 3px; word-spacing: 3px;"> : % </span></td>
+                        </tr>
+                        <tr><td><span style="font-family: 'Courier New', Courier, monospace;letter-spacing: 3px; word-spacing: 3px;"> Deveation in Quality </span></td>
+                            <td><span style="font-family: 'Courier New', Courier, monospace;letter-spacing: 3px; word-spacing: 3px;"> : " Negligible "   </span></td>
+                        </tr>
+                        </thead>
+                        </table>
+            </div>
+        </div>
+        
+        <!-------------------------------------------------------------------->
+        
+        
+    </center>
+    
+</body>
+</html>
+
+
+
+
+
+<!--{% for message in get_flashed_messages() %}
+<h2>key = {{ message }}</h2>
+{% endfor %}
+-->

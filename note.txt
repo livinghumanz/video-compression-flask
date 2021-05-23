@@ -1,0 +1,17 @@
+Before we move on, it is important to understand that the term resizing is just a general term. When it comes to manipulating pixels there are actually two methods, resizing and resampling. Resizing is the most basic as it simply enlarges or decreases the size of the pixels to whatever scale is desired. Thus, its other name, scaling.
+
+Resampling is slightly more complicated. Resampling is a tool that changes the number of pixels in the image itself. This is the most appropriate tool for resizing images for the web since page speed is so important, especially if you are using original photographs straight from your camera. If you decide the use a program capable of resampling, you are asking the program to analyze the image to decide which pixels to throw away or which to add. So if you’re looking to reduce image size without losing quality your best tool is resampling. Now let’s examine a few of the most popular tools for resizing images online.
+
+kmeans_image_compression:- https://rickwierenga.com/blog/machine%20learning/image-compressor-in-Python.html
+
+https://www.pyimagesearch.com/2016/02/22/writing-to-video-with-opencv/
+
+# Grayscale svd image compression
+https://www.youtube.com/watch?v=H7qMMudo3e8
+
+# colour svd image compression
+https://www.youtube.com/watch?v=SU851ljMIZ8
+https://github.com/playandlearntocode/using-svd-for-image-compression-in-python-in-python/blob/master/svd-example.py
+
+# matplot lib graphical
+https://matplotlib.org/3.1.0/api/_as_gen/matplotlib.pyplot.figure.html
